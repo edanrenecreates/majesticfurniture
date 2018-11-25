@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pinyon+Script');
+
+
+
+) * {
+	font-family: 'Open Sans',
+		sans-serif;
+}
+
+.navbar {
+	background-color: rgba(255, 255, 255, 0.40);
+}
+
+.navbar .navbar-brand {
+	color: #fff;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	letter-spacing: 2.25px;
+	font-size: .85rem;
+}
+
+a.nav-item.nav-link {
+	color: #fff !important;
+	font-weight: 400;
+	font-size: .85rem;
+	letter-spacing: 2.25px;
+	text-transform: uppercase;
+}
+
+/* Hero Section */
+
+#hero {
+	background: url(../images/heroImage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 750px;
+}
+
+#hero h1 {
+	padding-top: 150px;
+	color: #000000;
+	font-family: 'Pinyon Script',
+		cursive;
+	font-size: 6.25rem;
+	letter-spacing: 2.25px;
+}
+
+#hero p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	letter-spacing: 1.75px;
+}
+
+/* Email sign up section */
+
+#newsletter {
+	position: relative;
+	background-color: #ffc20e;
+	height: 250px;
+}
+
+#newsletter input {
+	background-color: #ffe187;
+	width: 250px;
+}
+
+#newsletter h2 {
+	padding-top: 45px;
+}
+
+#newsletter input,
+.btn {
+	margin-top: 50px;
+}
+
+#newsletter #name {
+	position: absolute;
+	left: 45%
+}
+
+#newsletter #email {
+	position: absolute;
+	right: 105%;
+}
+
+#newsletter .btn.btn-dark {
+	position: absolute;
+	right: 25%;
+}
+
+/* Our Team Section */
+#team {
+	background-color: #323232;
+	height: 750px;
+	color: #fff;
+}
