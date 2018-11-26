@@ -1,145 +1,436 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Majestic Customer Furniture</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-
-</head>
-
-<body>
-
+  <body>
     <!-- Navigation Section -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="navbar-brand" href="#">MAJESTIC CUSTOM FURNITURE</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">About</a>
-                <a class="nav-item nav-link" href="#">Team</a>
-                <a class="nav-item nav-link" href="#">Portfolio</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
-            </div>
+      <a class="navbar-brand" href="#">MAJESTIC CUSTOM FURNITURE</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="#team">Team</a>
+          <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
         </div>
+      </div>
     </nav>
     <!-- Nav End -->
 
     <!-- Hero Section -->
     <section id="hero" class="text-center">
-        <div class="container-fluid textSection">
-            <h1>Nice to meet you!</h1>
-            <img src="images/hero_logo.png" alt="company logo">
-            <p>We just don't build furniture, we build home</p>
-            <a href="#" class="btn btn-warning">GET IN TOUCH</a>
-        </div>
+      <div class="container-fluid textSection">
+        <h1>Nice to meet you!</h1>
+        <img src="images/hero_logo.png" alt="company logo" />
+        <p>We just don't build furniture, we build home</p>
+        <a href="#" class="btn btn-warning">GET IN TOUCH</a>
+      </div>
     </section>
     <!-- hero end -->
 
     <!-- email sub section -->
     <section id="newsletter" class="text-center">
-        <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
-        <form>
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" id="name">
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" id="lastName">
-                </div>
-                <div class="col">
-                    <input type="email" class="form-control" placeholder="E-mail address" id="email">
-                </div>
-                <button class="btn btn-dark">SUBSCRIBE</button>
-            </div>
-        </form>
+      <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+      <form>
+        <div class="row">
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="First name"
+              id="name"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Last name"
+              id="lastName"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="E-mail address"
+              id="email"
+            />
+          </div>
+          <button class="btn btn-dark">SUBSCRIBE</button>
+        </div>
+      </form>
     </section>
     <!-- end sub section -->
 
     <!-- Team Section -->
     <section id="team" class="text-center">
-        <div class="container">
-            <h2>OUR TEAM</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum fuga a vitae non tenetur accusantium.
-                Consectetur modi rem, debitis esse explicabo ipsum omnis quam eaque!</p>
-            <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional
-                            content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional
-                            content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional
-                            content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
+      <div class="container">
+        <h2>OUR TEAM</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ratione
+          voluptatibus nam. Quod, odio beatae!
+        </p>
+        <div class="card-deck">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/images/female1.png"
+              alt="female teammate"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Stef Julian</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                earum dicta quam repellat aut accusamus?
+              </p>
+              <button class="btn btn-warning">
+                <i class="far fa-envelope fa-2x"></i>
+              </button>
             </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/images/male1.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Brent Hansen</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                earum dicta quam repellat aut accusamus?
+              </p>
+              <button class="btn btn-warning">
+                <i class="far fa-envelope fa-2x"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/images/female2.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Naomi Porter</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                earum dicta quam repellat aut accusamus?
+              </p>
+              <button class="btn btn-warning">
+                <i class="far fa-envelope fa-2x"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/images/male2.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bridger Carson</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                earum dicta quam repellat aut accusamus?
+              </p>
+              <button class="btn btn-warning">
+                <i class="far fa-envelope fa-2x"></i>
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End Team Section -->
 
+    <!-- Gallery Section -->
+    <section id="portfolio">
+      <h2 class="galleryTitle">PORTFOLIO</h2>
+      <p class="galleryTitle">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem
+        non laboriosam itaque harum officia labore ipsum iusto eius placeat
+        repudiandae ducimus sunt, quo nobis asperiores.
+      </p>
+      <div class="container text-center header-text">
+        <button type="button" class="btn btn-outline-warning">All</button>
+        <button type="button" class="btn btn-outline-warning">Design</button>
+        <button type="button" class="btn btn-outline-warning">
+          Interior Design
+        </button>
+        <button type="button" class="btn btn-outline-warning">
+          Office Furniture
+        </button>
+        <button type="button" class="btn btn-outline-warning">
+          Home Staging
+        </button>
+      </div>
+      <div class="row portfolioThumbs">
+        <div class="card" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="/images/portfolio1.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5>Chairs</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="/images/portfolio2.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5>Office Furniture</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="/images/portfolio3.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5>Title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row portfolioThumbs">
+        <div class="card" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="/images/portfolio4.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5>Title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;" id="imageFive">
+          <img
+            class="card-img-top"
+            src="/images/link.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5>Title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="/images/portfolio1.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5>Title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row portfolioThumbs">
+        <div class="card" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="/images/portfolio2.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5>Title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="/images/portfolio8.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5>Title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="/images/portfolio9.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5>Title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery section end -->
 
-
-
-
-
-
-
-
-
-
-
+    <!-- Contact Section -->
+    <div class="container-fluid" id="contact">
+      <h2>Contact</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, eius
+        recusandae? Deleniti facilis nostrum id tenetur ipsum cupiditate quod
+        cum, adipisci praesentium maiores aliquid? Ut!
+      </p>
+      <form>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Enter your address"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Enter your city"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            name="message"
+            id="messageArea"
+            cols="88"
+            rows="10"
+            placeholder=" Message"
+          ></textarea>
+        </div>
+        <button class="btn btn-warning">SUBMIT</button>
+      </form>
+      <ul>
+        <a href="#">
+          <li></li>
+          HOME :
+        </a>
+        <a href="#about">
+          <li></li>
+          ABOUT :
+        </a>
+        <a href="#team">
+          <li></li>
+          TEAM :
+        </a>
+        <a href="#portfolio">
+          <li></li>
+          PORTFOLIO :
+        </a>
+        <a href="#contact">
+          <li></li>
+          CONTACT :
+        </a>
+      </ul>
+      <p>© Majestic Mountain Furniture | All rights reserved</p>
+    </div>
+    <!-- End Contact Section -->
 
     <!-- Bootstrap JS & Jquery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Pinyon+Script');
 
+html {
+	scroll-behavior: smooth;
+}
 
 
 ) * {
@@ -53,6 +56,8 @@ a.nav-item.nav-link {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
 	letter-spacing: 1.75px;
+	text-align: center;
+	margin-top: 20px;
 }
 
 /* Email sign up section */
@@ -95,6 +100,151 @@ a.nav-item.nav-link {
 /* Our Team Section */
 #team {
 	background-color: #323232;
-	height: 750px;
+	height: 700px;
 	color: #fff;
+}
+
+#team p:first-of-type {
+	text-align: center;
+}
+
+#team img {
+	height: 150px;
+	width: 150px;
+	margin: 20px auto;
+	border: 6px solid #ffc20e;
+	border-radius: 50%;
+}
+
+#team .card {
+	background-color: #323232;
+	border: none;
+}
+
+#team button {
+	width: 90px;
+}
+
+#team i {
+	color: #fff;
+}
+
+#team h2 {
+	padding-top: 65px;
+	font-weight: 200;
+	letter-spacing: 1.25px;
+}
+
+#team h5 {
+	text-align: center;
+}
+
+#team p {
+	font-size: .9rem;
+	color: rgba(255, 255, 255, 0.85);
+	line-height: 1.25;
+	letter-spacing: 1px;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+	color: #fff;
+}
+
+#portfolio .galleryTitle {
+	color: #000000;
+	text-align: center;
+	color: #6b6b6b;
+	font-weight: 200;
+	margin-top: 30px;
+}
+
+#portfolio .card {
+	border-radius: 0;
+	margin-left: 25px;
+}
+
+#portfolio img {
+	border-radius: 0;
+}
+
+#portfolio .card-body {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#portfolio h2,
+h5,
+p {
+	text-align: left;
+	font-weight: 300;
+}
+
+#portfolio .row {
+	margin-bottom: 30px;
+}
+
+#portfolio button {
+	color: #626262;
+	font-weight: 200;
+	text-align: center;
+}
+
+#portfolio .header-text {
+	margin-bottom: 20px;
+}
+
+#portfolio .portfolioThumbs {
+	display: flex;
+	justify-content: center;
+}
+
+/* Contact Section */
+
+#contact {
+	padding: 400px;
+	background: url(../images/contactbg.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contact h2,
+p {
+	text-align: center;
+	color: #fff;
+}
+
+#contact #messageArea {
+	border-radius: 10px;
+	border: none;
+}
+
+#contact form {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+#contact button {
+	color: #fff;
+	position: absolute;
+	left: 45%;
+	width: 200px;
+	margin-top: -5px;
+}
+
+#contact ul a {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: .85rem;
+}
+
+#contact ul a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#contact ul li {
+	display: inline-block;
+	margin-top: 250px;
+	margin-left: 100px;
 }
